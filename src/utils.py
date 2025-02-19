@@ -8,7 +8,7 @@ def cargar_matriz_desde_json(ruta_archivo):
     """
     with open(ruta_archivo, "r") as f:
         datos = json.load(f)
-    return datos["matriz_pagos"]
+    return datos
 
 def validar_matriz(matriz):
     """
