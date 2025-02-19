@@ -20,14 +20,6 @@ def main():
         # Mostrar resultados
         print("Resultados para el Jugador A:", "Estrategias: ", resultados["Jugador_A"]['Estrategias'], ", Valor_Juego: ", resultados["Jugador_A"]['Valor_Juego'])
         print("Resultados para el Jugador B:", "Estrategias: ", resultados["Jugador_B"]['Estrategias'], ", Valor_Juego: ", resultados["Jugador_B"]['Valor_Juego'])
-        
-        # Resolver el juego
-        juego = other(matriz_pagos)
-        resultados = juego.resolver()
-
-        # Mostrar resultados
-        print("Resultados para el Jugador A:", resultados["Jugador_A"])
-        print("Resultados para el Jugador B:", resultados["Jugador_B"])
 
 if __name__ == "__main__":
     main()
